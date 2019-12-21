@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yogadarma.mathconversion">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_aplikasi"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_aplikasi"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivityCelcius" />
+        <activity android:name=".ActivityFahreinheit" />
+        <activity android:name=".ActivityReamur" />
+        <activity android:name=".ActivityKelvin" />
+        <activity android:name=".ActivityPersegi" />
+        <activity android:name=".ActivityPersegiPanjang" />
+        <activity android:name=".ActivityLingkaran" />
+        <activity android:name=".ActivityLayang" />
+        <activity android:name=".ActivityTrapesium" />
+        <activity android:name=".ActivitySamaSisi" />
+        <activity android:name=".ActivitySamaKaki" />
+        <activity android:name=".ActivitySegitigaSembarang" />
+        <activity android:name=".ActivityJajarGenjang" />
+        <activity android:name=".ActivityKubus" />
+        <activity android:name=".ActivityBola" />
+        <activity android:name=".ActivityKetupat" />
+        <activity android:name=".ActivitySilinder" />
+        <activity android:name=".ActivityBalok" />
+        <activity android:name=".ActivityKerucut" />
+        <activity android:name=".ActivityLimasSegitiga" />
+        <activity android:name=".ActivityLimasSegiempat" />
+        <activity android:name=".ActivityLimasSegilima" />
+        <activity android:name=".ActivityLimasSegienam" />
+        <activity android:name=".ActivityPrismaSegitiga" />
+        <activity android:name=".ActivityPrismaSegilima" />
+        <activity android:name=".ActivityPrismaSegienam" />
+        <activity android:name=".ActivitySiku_siku" />
+        <activity
+            android:name=".ActivityFragment"
+            android:label="@string/title_activity_fragment"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ActivitySegitiga" />
+        <activity android:name=".ActivityPrisma" />
+        <activity android:name=".ActivityLimas" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+
+</manifest>

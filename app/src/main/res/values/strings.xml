@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Math Conversion</string>
+    <string name="title_activity_fragment">ActivityFragment</string>
+    <string name="tab_text_1">SUHU</string>
+    <string name="tab_text_2">LUAS</string>
+    <string name="tab_text_3">VOLUME</string>
+    <string name="action_settings">Keluar</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

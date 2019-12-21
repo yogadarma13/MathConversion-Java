@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yogadarma.mathconversion.ActivitySegitiga">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Segitiga"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Beberapa pilihan segitiga :"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:text="Segitiga sama sisi"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/btnSama_sisi" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:text="Segitiga sama kaki"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/btnSama_kaki" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:text="Segitiga siku-siku"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/btnSiku_siku" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:text="Segitiga sembarang"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/btnSembarang" />
+
+</LinearLayout>

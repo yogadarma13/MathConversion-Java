@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yogadarma.mathconversion.ActivityPrisma">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Prisma"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Beberapa pilihan prisma :"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:text="Prisma segitiga"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/btnPrisma_segitiga" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:text="Prisma segilima"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/btnPrisma_segilima" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:text="Prisma segienam"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/btnPrisma_segienam" />
+
+</LinearLayout>

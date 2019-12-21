@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yogadarma.mathconversion.ActivityVolume">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Menghitung Volume"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Bangun Ruang :"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:text="Kubus"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/btnKubus" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:text="Balok"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/btnBalok" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:text="Bola"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/btnBola" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:text="Silinder"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/btnSilinder" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:text="Kerucut"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/btnKerucut" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:text="Limas"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/btnLimas" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:text="Prisma"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/btnPrisma" />
+
+
+</LinearLayout>
